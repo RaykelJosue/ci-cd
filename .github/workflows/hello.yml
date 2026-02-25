@@ -1,9 +1,8 @@
 name: hello_world
 on: [push]
-
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-        - name: message hello world 😎
-        - run: echo "Hola mundo desde el GitHub de RaykelJosue"
+        -  name: message hello world 😎
+           run: echo "Hola mundo desde el GitHub de RaykelJosue"
